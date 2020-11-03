@@ -1,6 +1,0 @@
-framework module SDOSAlamofire {
-  umbrella header "SDOSAlamofire-umbrella.h"
-
-  export *
-  module * { export * }
-}

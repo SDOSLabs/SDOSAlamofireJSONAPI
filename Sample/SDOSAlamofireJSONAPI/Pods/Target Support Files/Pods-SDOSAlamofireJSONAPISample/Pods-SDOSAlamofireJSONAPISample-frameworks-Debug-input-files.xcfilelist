@@ -1,8 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-SDOSAlamofireJSONAPISample/Pods-SDOSAlamofireJSONAPISample-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Japx/Japx.framework
-${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework
-${BUILT_PRODUCTS_DIR}/SDOSAlamofire/SDOSAlamofire.framework
-${BUILT_PRODUCTS_DIR}/SDOSAlamofireJSONAPI/SDOSAlamofireJSONAPI.framework
-${BUILT_PRODUCTS_DIR}/SDOSKeyedCodable/SDOSKeyedCodable.framework
-${BUILT_PRODUCTS_DIR}/SDOSSwiftExtension/SDOSSwiftExtension.framework
