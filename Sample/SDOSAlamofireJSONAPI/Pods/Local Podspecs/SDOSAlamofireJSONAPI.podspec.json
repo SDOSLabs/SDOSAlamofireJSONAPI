@@ -1,0 +1,40 @@
+{
+  "name": "SDOSAlamofireJSONAPI",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "authors": "SDOS",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/SDOSLabs/SDOSAlamofireJSONAPI",
+  "summary": "Librería de integración con Alamofire",
+  "source": {
+    "git": "https://github.com/SDOSLabs/SDOSAlamofireJSONAPI.git",
+    "tag": "v1.0.0"
+  },
+  "frameworks": [
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "default_subspecs": "Core",
+  "dependencies": {
+    "SDOSAlamofire": [
+
+    ],
+    "Japx/Codable": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "preserve_paths": "src/Classes/JSONAPI/*",
+      "source_files": [
+        "src/Classes/JSONAPI/*{*.swift}",
+        "src/Classes/JSONAPI/**/*{*.swift}"
+      ]
+    }
+  ]
+}
