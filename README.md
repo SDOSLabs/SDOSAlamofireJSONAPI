@@ -25,8 +25,15 @@ Con SDOSAlamofire podemos integrar un serializer para el parseo de las respuesta
 
 ### Cocoapods
 
-Usaremos [CocoaPods](https://cocoapods.org). Hay que añadir la dependencia al `Podfile`:
+Usaremos [CocoaPods](https://cocoapods.org).
 
+Añadir el "source" privado de SDOSLabs al `Podfile`. Añadir también el "source" público de cocoapods para poder seguir instalando dependencias desde éste:
+```ruby
+source 'https://github.com/SDOSLabs/cocoapods-specs.git' #SDOSLabs source
+source 'https://github.com/CocoaPods/Specs.git' #Cocoapods source
+```
+
+Añadir la dependencia al `Podfile`:
 ```ruby
 pod 'SDOSAlamofireJSONAPI', '~>1.0.0' 
 pod 'Japx/Codable', :tag => '3.1.0', :git => 'https://github.com/SDOSLabs/Japx.git'
