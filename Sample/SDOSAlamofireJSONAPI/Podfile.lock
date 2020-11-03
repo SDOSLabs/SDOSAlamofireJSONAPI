@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Japx/Codable (3.0.0):
+    - Japx/Core
+  - Japx/Core (3.0.0)
+  - OHHTTPStubs (9.0.0):
+    - OHHTTPStubs/Default (= 9.0.0)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - SDOSAlamofire (1.0.0):
+    - Alamofire (>= 5.1.0)
+    - SDOSAlamofire/Core (= 1.0.0)
+    - SDOSKeyedCodable (>= 1.1)
+    - SDOSSwiftExtension
+  - SDOSAlamofire/Core (1.0.0):
+    - Alamofire (>= 5.1.0)
+    - SDOSKeyedCodable (>= 1.1)
+    - SDOSSwiftExtension
+  - SDOSAlamofireJSONAPI (1.0.0):
+    - Japx/Codable
+    - SDOSAlamofire
+    - SDOSAlamofireJSONAPI/Core (= 1.0.0)
+  - SDOSAlamofireJSONAPI/Core (1.0.0):
+    - Japx/Codable
+    - SDOSAlamofire
+  - SDOSKeyedCodable (1.1.1):
+    - SDOSKeyedCodable/KeyedCodable (= 1.1.1)
+  - SDOSKeyedCodable/KeyedCodable (1.1.1)
+  - SDOSSwiftExtension (1.0.2):
+    - SDOSSwiftExtension/SwiftExtension (= 1.0.2)
+  - SDOSSwiftExtension/SwiftExtension (1.0.2)
+
+DEPENDENCIES:
+  - Japx/Codable (from `https://github.com/SDOSLabs/Japx.git`, tag `3.1.0`)
+  - OHHTTPStubs (= 9.0.0)
+  - SDOSAlamofire (from `https://github.com/SDOSLabs/SDOSAlamofire.git`, tag `2.0.0`)
+  - SDOSAlamofireJSONAPI (from `../../`)
+  - SDOSKeyedCodable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - OHHTTPStubs
+  https://github.com/SDOSLabs/cocoapods-specs.git:
+    - SDOSKeyedCodable
+    - SDOSSwiftExtension
+
+EXTERNAL SOURCES:
+  Japx:
+    :git: https://github.com/SDOSLabs/Japx.git
+    :tag: 3.1.0
+  SDOSAlamofire:
+    :git: https://github.com/SDOSLabs/SDOSAlamofire.git
+    :tag: 2.0.0
+  SDOSAlamofireJSONAPI:
+    :path: "../../"
+
+CHECKOUT OPTIONS:
+  Japx:
+    :git: https://github.com/SDOSLabs/Japx.git
+    :tag: 3.1.0
+  SDOSAlamofire:
+    :git: https://github.com/SDOSLabs/SDOSAlamofire.git
+    :tag: 2.0.0
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Japx: d1f7f3e4b94f2013538102e96cf96fd417005f76
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  SDOSAlamofire: 7e919212262c4e497f83613739e23761dd4ef192
+  SDOSAlamofireJSONAPI: 339fcbeca5cdb61223918368139341a11529ac7b
+  SDOSKeyedCodable: c5ee2d84c5d0119f2a9a7060c2fd3b0eb4ab03c7
+  SDOSSwiftExtension: 6f9bd03dd6c1a6a70b5f60cd7cc470790aee3625
+
+PODFILE CHECKSUM: ce7aa5e43b2258b38c0e4d151b04398b0f7cf204
+
+COCOAPODS: 1.9.3
