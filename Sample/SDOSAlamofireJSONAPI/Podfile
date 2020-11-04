@@ -1,0 +1,18 @@
+source 'https://github.com/SDOSLabs/cocoapods-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+install! 'cocoapods', :deterministic_uuids => false
+use_frameworks!
+inhibit_all_warnings!
+
+def shared_pods
+    pod 'SDOSAlamofireJSONAPI', :path => '../../', :inhibit_warnings => false
+    pod 'Japx/Codable', :tag => '3.1.0', :git => 'https://github.com/SDOSLabs/Japx.git'
+  	pod 'OHHTTPStubs', '9.0.0'
+  	pod 'SDOSKeyedCodable'
+end
+
+target 'SDOSAlamofireJSONAPISample' do
+  shared_pods
+end

@@ -1,0 +1,88 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "097e1f03166d49b31f824507fb85ad843b14fc13",
+          "version": "5.3.0"
+        }
+      },
+      {
+        "package": "Japx",
+        "repositoryURL": "https://github.com/SDOSLabs/Japx.git",
+        "state": {
+          "branch": null,
+          "revision": "a1fbc7eead2a9d068164db7af056e527ae572b95",
+          "version": "3.1.0"
+        }
+      },
+      {
+        "package": "Moya",
+        "repositoryURL": "https://github.com/Moya/Moya.git",
+        "state": {
+          "branch": null,
+          "revision": "b3e5a233e0d85fd4d69f561c80988590859c7dee",
+          "version": "14.0.0"
+        }
+      },
+      {
+        "package": "OHHTTPStubs",
+        "repositoryURL": "https://github.com/AliSoftware/OHHTTPStubs.git",
+        "state": {
+          "branch": null,
+          "revision": "e92b5a5746ef16add2a1424f1fc19529d9a75cde",
+          "version": "9.0.0"
+        }
+      },
+      {
+        "package": "ReactiveSwift",
+        "repositoryURL": "https://github.com/Moya/ReactiveSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "f195d82bb30e412e70446e2b4a77e1b514099e88",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "SDOSAlamofire",
+        "repositoryURL": "https://github.com/SDOSLabs/SDOSAlamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "12b3026b17003a18517f2309fa8c4bc079697658",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "SDOSKeyedCodable",
+        "repositoryURL": "https://github.com/SDOSLabs/SDOSKeyedCodable.git",
+        "state": {
+          "branch": null,
+          "revision": "2ec8bd328a6648ee0bebe4dc59189a9f57d97b3d",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "SDOSSwiftExtension",
+        "repositoryURL": "https://github.com/SDOSLabs/SDOSSwiftExtension.git",
+        "state": {
+          "branch": null,
+          "revision": "8577b1e70d3f7cf5d0cf4de927a300ede14f0dfe",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
