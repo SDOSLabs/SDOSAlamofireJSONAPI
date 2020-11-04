@@ -7,5 +7,5 @@
 //
 
 //Aplicación
-APP_NAME = SDOSAlamofire
-BASE_PRODUCT_PACKAGE_NAME = es.sdos.sdosalamofire
+APP_NAME = SDOSAlamofireJSONAPI
+BASE_PRODUCT_PACKAGE_NAME = es.sdos.sdosalamofirejsonapi

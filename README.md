@@ -1,4 +1,4 @@
-- [SDOSAlamofire+JSONAPI](#sdosalamofirejsonapi)
+- [SDOSAlamofireJSONAPI](#sdosalamofirejsonapi)
   - [Introducción](#introducción)
   - [Instalación](#instalación)
     - [Cocoapods](#cocoapods)
@@ -11,7 +11,7 @@
     - [Ejemplo](#ejemplo)
   - [Dependencias](#dependencias)
 
-# SDOSAlamofire+JSONAPI
+# SDOSAlamofireJSONAPI
 
 - Para consultar los últimos cambios en la librería consultar el [CHANGELOG.md](https://github.com/SDOSLabs/SDOSAlamofireJSONAPI/blob/master/CHANGELOG.md).
 
@@ -19,7 +19,7 @@
 
 ## Introducción
 
-Con SDOSAlamofire podemos integrar un serializer para el parseo de las respuestas de los servicios web con una estructura [JSON:API](https://jsonapi.org).
+Con SDOSAlamofireJSONAPI podemos integrar un serializer para el parseo de las respuestas de los servicios web con una estructura [JSON:API](https://jsonapi.org).
 
 ## Instalación
 
@@ -35,7 +35,7 @@ source 'https://github.com/CocoaPods/Specs.git' #Cocoapods source
 
 Añadir la dependencia al `Podfile`:
 ```ruby
-pod 'SDOSAlamofireJSONAPI', '~>1.0.0' 
+pod 'SDOSAlamofireJSONAPI', '~> 1.0.0' 
 pod 'Japx/Codable', :tag => '3.1.0', :git => 'https://github.com/SDOSLabs/Japx.git'
 ```
 
@@ -174,5 +174,5 @@ func loadRoutes() -> RequestValue<Promise<[RouteBO]>> {
 
 ## Dependencias
 
-* [SDOSAlamofire](https://github.com/SDOSLabs/SDOSAlamofire)
-* [Japx/Codable](https://github.com/SDOSLabs/Japx.git) 3.1.0
+* [SDOSAlamofire](https://github.com/SDOSLabs/SDOSAlamofire) - ~> 2.0.0
+* [Japx/Codable](https://github.com/SDOSLabs/Japx.git) - 3.1.0

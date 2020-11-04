@@ -59,27 +59,27 @@
         "package": "SDOSAlamofire",
         "repositoryURL": "https://github.com/SDOSLabs/SDOSAlamofire.git",
         "state": {
-          "branch": "feature/spm",
-          "revision": "04a838345514f48030eeee8fc906b5428b1edeb1",
-          "version": null
+          "branch": null,
+          "revision": "12b3026b17003a18517f2309fa8c4bc079697658",
+          "version": "2.0.0"
         }
       },
       {
         "package": "SDOSKeyedCodable",
         "repositoryURL": "https://github.com/SDOSLabs/SDOSKeyedCodable.git",
         "state": {
-          "branch": "feature/spm",
-          "revision": "5b85f2265452fbc4e6b6e2a93613848ec146ccb1",
-          "version": null
+          "branch": null,
+          "revision": "2ec8bd328a6648ee0bebe4dc59189a9f57d97b3d",
+          "version": "1.2.0"
         }
       },
       {
         "package": "SDOSSwiftExtension",
         "repositoryURL": "https://github.com/SDOSLabs/SDOSSwiftExtension.git",
         "state": {
-          "branch": "feature/spm",
-          "revision": "3ca8d03d2bdc844b06b22c4687108e227a0d8a3d",
-          "version": null
+          "branch": null,
+          "revision": "8577b1e70d3f7cf5d0cf4de927a300ede14f0dfe",
+          "version": "1.1.0"
         }
       }
     ]
