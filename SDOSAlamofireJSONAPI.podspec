@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.license      = { :type => 'MIT' }
     spec.homepage     = 'https://github.com/SDOSLabs/SDOSAlamofireJSONAPI'
     spec.summary      = 'Librería de integración con Alamofire'
-    spec.source       = { :git => "https://github.com/SDOSLabs/SDOSAlamofireJSONAPI.git", :tag => "v#{spec.version}" }
+    spec.source       = { :git => "https://github.com/SDOSLabs/SDOSAlamofireJSONAPI.git", :tag => "#{spec.version}" }
     spec.framework    = ['Foundation']
     spec.requires_arc = true
 
@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
         s1.source_files = ['src/Classes/JSONAPI/*{*.swift}', 'src/Classes/JSONAPI/**/*{*.swift}']
     end
 
-    spec.dependency 'SDOSAlamofire'#, '>= 2.0.0'
+    spec.dependency 'SDOSAlamofire', '~> 2.0.0'
     spec.dependency 'Japx/Codable'#, :tag => '3.1.0', :git => 'https://github.com/SDOSLabs/Japx.git'
 end

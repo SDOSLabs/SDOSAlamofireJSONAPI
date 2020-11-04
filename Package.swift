@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SDOSLabs/Japx.git", .upToNextMajor(from: "3.1.0")),
-        .package(url: "https://github.com/SDOSLabs/SDOSAlamofire.git", .branch("feature/spm")),
+        .package(url: "https://github.com/SDOSLabs/SDOSAlamofire.git", .upToNextMajor(from: "2.0.0")),
         
     ],
     targets: [

@@ -706,7 +706,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofire.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofirejsonapi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSAlamofireSample-Bridging-Header.h";
@@ -731,7 +731,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofire.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofirejsonapi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSAlamofireSample-Bridging-Header.h";
@@ -754,7 +754,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofire.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofirejsonapi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSAlamofireSample-Bridging-Header.h";
@@ -778,7 +778,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofire.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosalamofirejsonapi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSAlamofireSample-Bridging-Header.h";
